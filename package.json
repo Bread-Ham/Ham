@@ -1,0 +1,33 @@
+{
+    "name": "ham",
+    "version": "1.0.0",
+    "description": "Api for Ham service, needs OAuth authorization from Bread2 to access user's data",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Bread-Ham/Ham.git"
+    },
+    "keywords": [
+        "api"
+    ],
+    "dependencies": {
+        "@apollo/server": "^4.11.0",
+        "@prisma/client": "^5.20.0",
+        "dataloader": "^2.2.2",
+        "express": "^4.21.1",
+        "graphql": "^16.9.0",
+        "nodemon": "^3.1.7",
+        "eslint": "^8.2.0",
+        "eslint-config-airbnb-base": "^16.0.3",
+        "eslint-plugin-import": "^2.25.4"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Bread-Ham/Ham/issues"
+    },
+    "homepage": "https://github.com/Bread-Ham/Ham#readme"
+}
