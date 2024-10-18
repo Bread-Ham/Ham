@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Api for Ham service, needs OAuth authorization from Bread2 to access user's data",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "dev": "nodemon index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
