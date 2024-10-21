@@ -1,9 +1,12 @@
 {
+    "type": "module",
     "name": "ham",
     "version": "1.0.0",
     "description": "Api for Ham service, needs OAuth authorization from Bread2 to access user's data",
     "main": "index.js",
     "scripts": {
+        "dev": "nodemon src/index.js",
+        "bouchon": "nodemon src/bouchon.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -14,15 +17,15 @@
         "api"
     ],
     "dependencies": {
+        "cookie-parser": "^1.4.6",
         "@apollo/server": "^4.11.0",
         "@prisma/client": "^5.20.0",
         "dataloader": "^2.2.2",
+        "dotenv": "^16.4.5",
+        "eslint": "^8.2.0",
         "express": "^4.21.1",
         "graphql": "^16.9.0",
-        "nodemon": "^3.1.7",
-        "eslint": "^8.2.0",
-        "eslint-config-airbnb-base": "^16.0.3",
-        "eslint-plugin-import": "^2.25.4"
+        "nodemon": "^3.1.7"
     },
     "author": "",
     "license": "ISC",
